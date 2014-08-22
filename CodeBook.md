@@ -1,5 +1,7 @@
 # CodeBook.md
-## run_analysis.R code book code book describes the variables, the data, and any transformations or work that 
+## run_analysis.R Code Book
+
+This code book describes the variables, the data, and any transformations or work that 
 were performed to clean up the data.
 
 ## Variables

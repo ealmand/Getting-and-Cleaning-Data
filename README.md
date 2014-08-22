@@ -27,18 +27,3 @@ to clean up the data.
 * Uses descriptive activity names to name the activities in the data set.
 * Appropriately labels the data set with descriptive variable names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-### run_anlaysis.R Script Description
-
-* The script utilizes both the reshape2 and plyr packages.  Both packages must be installed prior to running the script
-* Downloads and reads the data from a zip file (URL provided in the CodeBook.md).
-* Merges both the test and train data sets.
-* Adds the features list as a header to the data set containing the accelerometer data (X).
-* Creates the Subject data set. 
-* Adds the activity name to the 'y' data set.
-* Extracts only the mean and standard deviation column from the 'X' data set.
-* Merges the 'Subject', 'y' (containing the activity), and 'extract' (containing the mean and standard deviation) data sets using column bind.
-* Adds the activity names to the rows in the Activity column.
-* Melts the data set to caluclate the mean for each subject's activity.
-* Casts the data set displaying Subject then Activity by the Accelerometer variable.
-* Writes the 'tidy data' to .csv and .txt formats
